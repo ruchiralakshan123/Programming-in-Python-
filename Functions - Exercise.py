@@ -5,3 +5,4 @@ num = float(input("Enter a number: "))
 result = sqr(num)
 print("The square ->", num, "is", result)
 
+
