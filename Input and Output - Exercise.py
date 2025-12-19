@@ -1,5 +1,6 @@
 def get_input():
     # Only edit the code segment between the dashes
+
     
     # ------------------------------------
     
@@ -8,4 +9,5 @@ def get_input():
     
     # ------------------------------------
     
+
     print (a+b)
