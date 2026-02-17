@@ -7,12 +7,10 @@ import numpy as np
 import string
 
 import seaborn as sns
-
 print('matplotlib: {}'. format(  matplotlib. __version__)) 
 
 sizes = ["S", "M", "L", "XL","XXL"]
 colors = ["black", "red", "white", "blue"]
-
 #Below we create functions to generate a probable value for each column attribute randomly.
 def generate_random_id():
     return str(random.randrange(100,999))+random.choice(string.ascii_uppercase)
@@ -41,14 +39,12 @@ for i in range(total_no_of_tshirts):
   data.append(row)
 df=pd.DataFrame(data,columns = ['id', 'size','color','price','stock'])
 #print(df)
-
 stock_by_size=df.groupby(['size']).sum() 
 #print(stock_by_size)
 
 #plt.pie(stock_by_size['stock'], labels = stock_by_size.index)
 #plt.title("t-shirt stok")
-#plt.show()
-
+plt.show()
 dark_stock = [20, 34, 30, 35, 27]
 light_stock = [25, 32, 34, 20, 25]
 
@@ -72,5 +68,6 @@ ax.legend()
 fig.tight_layout()
 
 plt.show()
+
 
 
