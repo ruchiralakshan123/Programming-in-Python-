@@ -5,7 +5,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 import string
-
+#hello
 import seaborn as sns
 
 print('matplotlib: {}'. format(  matplotlib. __version__)) 
@@ -48,5 +48,6 @@ print(stock_by_size)
 plt.pie(stock_by_size['stock'], labels = stock_by_size.index)
 plt.title("t-shirt stok")
 plt.show()
+
 
 
