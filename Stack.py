@@ -40,7 +40,7 @@ class Stack:
       print(currentNode.value, end=" -> ")
       currentNode = currentNode.next
     print()
-
+// stack oop python
 myStack = Stack()
 myStack.push('A')
 myStack.push('B')
@@ -54,3 +54,4 @@ print("LinkedList after Pop: ", end="")
 myStack.traverseAndPrint()
 print("isEmpty: ", myStack.isEmpty())
 print("Size: ", myStack.stackSize())
+
