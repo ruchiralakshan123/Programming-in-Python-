@@ -1,3 +1,4 @@
+#queue
 class Node:
   def __init__(self, data):
     self.data = data
@@ -62,3 +63,4 @@ print("Queue after Dequeue: ", end="")
 myQueue.printQueue()
 print("isEmpty: ", myQueue.isEmpty())
 print("Size: ", myQueue.size())
+
