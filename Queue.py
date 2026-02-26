@@ -55,6 +55,7 @@ myQueue.enqueue('A')
 myQueue.enqueue('B')
 myQueue.enqueue('C')
 
+print("Queue: ")
 print("Queue: ", end="")
 myQueue.printQueue()
 print("Peek: ", myQueue.peek())
@@ -63,4 +64,5 @@ print("Queue after Dequeue: ", end="")
 myQueue.printQueue()
 print("isEmpty: ", myQueue.isEmpty())
 print("Size: ", myQueue.size())
+
 
